@@ -1,0 +1,43 @@
+
+body {
+    background-color: #f3f1f1;}
+
+
+a {color: black;}
+        a {font-size: 12px}
+
+    a:link {
+        color: dimgrey; 
+        text-decoration: none}
+    a:visited {
+        color: green; 
+        text-decoration: none}
+    a:active {text-decoration: none}
+    a:hover {text-decoration: underline}
+
+p {color: #394646}
+p {font-size: 12px}
+
+
+
+@media screen and (min-width: 765px) {
+    
+    .containermobile {
+        display: none
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    }
+    
+    
+    @media screen and (max-width: 764px) {
+    
+    
+.containerscreen {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+        }

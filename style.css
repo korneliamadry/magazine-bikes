@@ -1,0 +1,265 @@
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    height: 100%;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.8rem;
+    background-color: #f3f1f1;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: local
+}
+
+
+
+.logo {
+    position: fixed;
+    font-family: 'Faster One', cursive;
+    left: 30px;
+    top: 10px;
+    font-size: 30px
+}
+
+.logo2 {
+    position: fixed;
+    font-family: 'Faster One', cursive;
+    left: 28px;
+    top: 30px;
+    font-size: 24px
+}
+
+.back {
+    position: fixed;
+    left: -90px;
+    top: 16px;
+
+}
+
+
+.motto {
+    position: relative;
+    padding-top: 93%;
+    
+
+}
+
+
+.container1 {
+    width: 30%;
+    height: 92%;
+    float: left;
+    position: relative;
+    left: 18%;
+    top: 4%;
+    background-image: url("picture-main.png");
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    border: 10px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.container2 {
+    width: 30%;
+    height: 92%;
+    float: right;
+    position: relative;
+    right: 18%;
+    top: 4%;
+    background-image: url("picture-main2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 10px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.container3 {
+
+    width: 30%;
+    height: 89%;
+    float: left;
+    position: relative;
+    left: 18%;
+    top: 4%;
+    background-image: url("picture1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.container4 {
+    width: 30%;
+    height: 89%;
+    float: right;
+    position: relative;
+    right: 18%;
+    top: 4%;
+    text-align: justify;
+    font-size: 12px;
+    padding: 15px;
+    overflow-y: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.container5 {
+
+    width: 30%;
+    height: 89%;
+    float: left;
+    position: relative;
+    left: 18%;
+    top: 4%;
+    background-image: url("picture2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.container6 {
+
+    width: 30%;
+    height: 89%;
+    float: left;
+    position: relative;
+    left: 18%;
+    top: 4%;
+    background-image: url("picture6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+
+.redpage {
+    align-content: flex-start;
+    font-family: 'Share', cursive;
+    color: #f51805;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+
+
+.yellowpage {
+    align-content: flex-start;
+    font-family: 'Share', cursive;
+    color: rgb(242, 214, 0);
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.bluepage {
+    align-content: flex-start;
+    font-family: 'Share', cursive;
+    color: #082ae6;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Arial, serif;
+}
+
+.thumbnail-grid {
+    user-select: none
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch
+}
+
+.flex-item {
+    flex: 1 0 auto
+}
+
+.thumbnail-grid figure {
+    position: relative;
+    min-width: 200px;
+    height: 150px;
+    margin: 18px;
+    border-radius: 3px;
+    box-shadow: inset 0 -40px 0 0 rgba(0, 0, 0, .5);
+    transition: all .6s ease-in-out
+}
+
+.thumbnail-grid figure:hover {
+    box-shadow: inset 0 -200px 0 0 rgba(0, 0, 0, .2);
+}
+
+
+.thumbnail-grid figcaption {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #f4f4f4;
+    text-shadow: 0 0 3px #000;
+    bottom: 10px;
+    transition: all .6s ease-in-out
+}
+
+.thumbnail-grid figure:hover figcaption {
+    bottom: 27px
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+
+
+a:link {
+    color: grey
+}
+
+.sources {
+    position: relative;
+    float: right;
+    top: 93%;
+    left: 27%;
+    
+    
+}
